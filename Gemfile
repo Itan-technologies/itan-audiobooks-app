@@ -52,8 +52,6 @@ gem 'active_storage_validations'
 gem 'sidekiq'
 # Admin Dashboard:
 gem 'rails_admin'
-# Payments with Stripe:
-gem 'stripe'
 
 # Frontend/UI:
 gem 'hotwire-rails'
