@@ -50,8 +50,6 @@ gem 'cancancan'
 gem 'active_storage_validations'
 # Background Jobs:
 gem 'sidekiq'
-# Admin Dashboard:
-gem 'rails_admin'
 
 # Frontend/UI:
 gem 'hotwire-rails'
@@ -88,3 +86,5 @@ group :test do
   gem 'capybara'
   gem 'selenium-webdriver'
 end
+gem "cssbundling-rails"
+
