@@ -88,3 +88,6 @@ group :test do
 end
 gem "cssbundling-rails"
 
+gem 'activeadmin'
+
+gem 'sassc-rails'
