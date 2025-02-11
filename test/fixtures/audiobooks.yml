@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  book_id: 
+  audio_file_url: MyString
+  duration: 1
+  status: false
+
+two:
+  book_id: 
+  audio_file_url: MyString
+  duration: 1
+  status: false

@@ -1,0 +1,29 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id: 
+  user: 
+  title: MyString
+  description: MyText
+  edition_number: MyString
+  contributors: MyString
+  primary_audience: 1
+  publishing_rights: false
+  file_url: MyString
+  cover_image_url: MyString
+  status: 1
+  price: 1
+
+two:
+  id: 
+  user: 
+  title: MyString
+  description: MyText
+  edition_number: MyString
+  contributors: MyString
+  primary_audience: 1
+  publishing_rights: false
+  file_url: MyString
+  cover_image_url: MyString
+  status: 1
+  price: 1
