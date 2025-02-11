@@ -1,5 +1,5 @@
 class Chapter < ApplicationRecord
-    belongs_to :audiobook
-    # Validations
-    validates :title, :content, presence: true
+  belongs_to :audiobook
+  # Validations
+  validates :title, :content, presence: true
 end

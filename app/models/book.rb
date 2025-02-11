@@ -1,7 +1,7 @@
 class Book < ApplicationRecord
-    belongs_to :user
-    has_one :audiobook, dependent: :destroy
+  belongs_to :user
+  has_one :audiobook, dependent: :destroy
 
-    # Validations
+  # Validations
   validates :title, :description, :price, presence: true
 end
