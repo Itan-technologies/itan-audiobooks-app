@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2025_02_11_195700) do
+ActiveRecord::Schema[8.0].define(version: 2025_02_11_203654) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_catalog.plpgsql"
   enable_extension "pgcrypto"
@@ -66,7 +66,6 @@ ActiveRecord::Schema[8.0].define(version: 2025_02_11_195700) do
     t.integer "amount"
     t.string "purchase_status"
     t.datetime "purchase_date"
-    t.datetime "trial_end_date"
     t.string "paystack_reference"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -98,6 +97,8 @@ ActiveRecord::Schema[8.0].define(version: 2025_02_11_195700) do
     t.string "last_name"
     t.string "phone_number"
     t.string "nationality"
+    t.datetime "trial_start_date"
+    t.datetime "trial_end_date"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end

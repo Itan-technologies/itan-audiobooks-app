@@ -8,4 +8,11 @@ class User < ApplicationRecord
   
   # Validations
   validates :first_name, :last_name, :phone_number, :nationality, :role, presence: true
+ 
+  # Associations
+  has_many :books, dependent: :destroy
+  has_many :purchases, dependent: :destroy
+  has_many :audiobooks, through: :purchases, source: :audiobook
+  has_many :notifications, dependent: :destroy
+  has_many :reviews, dependent: :destroy
 end
