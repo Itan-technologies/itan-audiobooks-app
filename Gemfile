@@ -42,8 +42,6 @@ gem 'thruster', require: false
 
 # Added library/gem
 
-# Authentication:
-gem 'devise'
 # Authorization:
 gem 'cancancan'
 # File Uploads:
@@ -88,9 +86,8 @@ group :test do
 end
 gem 'cssbundling-rails'
 
-gem 'activeadmin'
-
 gem 'sassc-rails'
 
-gem 'devise-jwt'
+gem 'dry-configurable', '1.0.0'
 
+gem 'devise'
